@@ -1,6 +1,8 @@
+let numTabuada = Number(prompt('Digite o numero da tabuada '));
 
-let tabuada = Number(prompt('Digite a tabuada que deseja'));
-
-for (let contador = 0; contador <= 10; contador++) {
-    console.log(tabuada +" X "+ contador + "= " + tabuada * contador);
+for (let i = numTabuada; i <= numTabuada + 2; i++) {
+    console.log("Tabuada do numero: " + i)
+    for (let j = 0; j <= 10; j++) {
+        console.log(i + " X " + j + " = " + (i * j) )
+    }
 }
