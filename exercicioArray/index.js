@@ -49,11 +49,11 @@
 // }
 // console.log("A decrementação do array fica assim: " + arrayInvertido)
 
-let array = []; 
+let array = [];
 let arrayInvertido = [];
 let numerosInserir = parseInt(prompt("Quantos numeros deseja inserir no array? "));
 
-for (let i = 0; i < numerosInserir; i++) { 
+for (let i = 0; i < numerosInserir; i++) {
     let numero = parseInt(prompt("Digite o " + (i + 1) + "° número"))
     array[i] = numero
 }
@@ -62,9 +62,9 @@ console.log("O array prenchido foi: " + array);
 
 let contador = numerosInserir - 1;
 
-for (let i = 0; i < numerosInserir; i++ ) {
-arrayInvertido[i] = array[contador]
-contador--;
+for (let i = 0; i < numerosInserir; i++) {
+    arrayInvertido[i] = array[contador]
+    contador--;
 
 }
 
